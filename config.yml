@@ -1,0 +1,43 @@
+task:
+  eda: True
+  data_preprocessing:
+  model_experimentation: True
+  model_finalization: True
+  model_inference:
+  model_explainability: True
+  bias_analysis_data_prep: True
+  data_drift_analysis: True
+data_path:
+  raw: data/raw/Walmart.csv
+  clean:
+  model_input: data/model_input
+  additional_data1:
+  additional_data2:
+other_directories:
+  split:
+  model: data/model
+  scaler:
+  encoder:
+  predictions: data/model_output
+  reporting: data/reporting
+  others:
+problem:
+  classification:
+    tag:
+    binary:
+    target:
+  regression:
+    tag: True
+    target: Weekly_Sales
+  clustering:
+    tag:
+  exclude:
+preprocessing:
+  exclude:
+wandb:
+  user:
+  project:
+  best_model_url:
+
+  
+
